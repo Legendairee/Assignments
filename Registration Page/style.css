@@ -1,0 +1,205 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Registered */
+.container {
+  width: 20%;
+  padding: 10px;
+  background-color: rgba(213, 69, 196, 0.228);
+  border-radius: 5px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+h2 {
+  color: brown;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 26px;
+}
+
+.pop {
+  margin-top: 2%;
+  font-size: 18px;
+  color: brown;
+}
+
+/* Registration Page */
+
+.sign {
+  margin: 0;
+  padding: 0;
+  width: 200%;
+  height: 200%;
+  background-color: blueviolet;
+  background-size: cover;
+  color: #fff;
+  background: url("./istockphoto-1372935657-612x612.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45%;
+  
+
+
+}
+
+.registration-form {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 2%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registration-for, h1{
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom:  6%;
+
+}
+
+.lbel {
+  font-size: 20px;
+  margin: 1px 5px;
+}
+
+.registration-form,
+input {
+  font-size: 16px;
+  padding: 4px ;
+  width: 42%;
+  border: 0;
+  border-radius: 6px;
+  outline: none;
+}
+
+.btn1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 7px ;
+  width: 20%;
+  border: 0;
+  border-radius: 6px;
+  outline: none;
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn1:hover {
+  color: red;
+  background-color: greenyellow;
+}
+
+.div1 {
+  margin-top: 2%;
+}
+
+/* Login Page */
+
+.logbody{
+  margin: 0;
+  padding: 0;
+  background: url('./pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.loginbox{
+  width: 33%;
+  height: 60%;
+  background: rgba(223, 205, 85, 0.215);
+  color: rgb(255, 255, 255);
+  top: 26%;
+  left: 31%;
+  padding: 34% 14%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: 0 0 15px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position:absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+
+}
+
+.loginbox, p{
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.loginbox, h1{
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 15%;
+
+}
+
+.loginbox, input{
+  /* width: 100%; */
+  margin-bottom: 5px; 
+  margin-left: 15px;
+  text-align: left;
+}
+ .loginbox, a{
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 11px;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: -40px; 
+  cursor: pointer;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  background-color: rgba(0,0,0,0.2);
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+
+}
+.loginbox, button{
+  padding: 6px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow:rgba(213, 69, 196, 0.228);
+  border: none;
+
+}
+
+button:hover{
+  background-color: yellowgreen;
+}

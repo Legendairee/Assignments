@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body class="sign">
+  <div class="registration-form">
+    <h1 class="h1">Register Here</h1>
+    <form action="/Login.html" target="_blank" class="registration-page">
+      <div class="div1">
+        <label for="fname" class="lbel">First Name</label>
+        <input type="text" name="fname" placeholder="First Name" required="required" />
+      </div>
+      <div class="div1">
+        <label for="lname" class="lbel">Last Name</label>
+        <input type="text" name="lname" placeholder="Last Name" required="required" />
+      </div>
+      <div class="div1">
+        <label for="telephone" class="lbel">Phone Number</label>
+        <input type="tel" name="telephone" placeholder="Number" required="required" />
+      </div>
+      <div class="div1">
+        <label for="email" class="lbel">Email</label>
+        <input type="email" name="email" placeholder="Email Address" required="required" />
+      </div>
+      <div class="div1">
+        <label for="Pwd" class="lbel">Password</label>
+        <input type="password" name="pwd" placeholder="Password" required="required" />
+      </div>
+      <div class="div1">
+        <label for="pwd2" class="lbel">Confirm Password</label>
+        <input type="password" name="email" placeholder="Re-enter Password" />
+      </div>
+      <div class="div1">
+        <select name="Gender" class="lbel">
+          <option value="none" selected>Choose Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+
+        </select>
+      </div>
+      <div class="div1">
+        <label for="dbirth" class="lbel">Date Of Birth</label>
+        <input type="date" name="dbirth" />
+      </div>
+      <div class="div1">
+        <label for="favcolor" class="lbel">Favourite Color</label>
+        <input type="color" name="favcolor" value="#00FFf2" />
+      </div>
+
+      <button type="Submit" class="btn1">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
